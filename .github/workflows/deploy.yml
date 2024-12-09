@@ -10,22 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout the repository's code from the 'main' branch
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      # Setup Node.js environment
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '14'  # You can update the Node.js version if needed
 
+      # Install dependencies (ensure you have package.json in your main branch)
       - name: Install dependencies
         run: npm install
 
+      # Build the site (ensure this outputs to the correct directory, typically ./build or ./dist)
       - name: Build the site
         run: npm run build
 
+      # Deploy to gh-pages branch
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GH_TOKEN }}  # Make sure to use your secret token
-          publish_dir: ./build  # Directory to publish, change if needed (e.g., './_site' for Jekyll)
+          github_token: ${{ secrets.GH_TOKEN }}  # Ensure GH_TOKEN is added to your secrets
+          publish_dir: ./build  # Specify the directory where the built files are located
+          target_branch: gh-pages  # Push to gh-pages branch
