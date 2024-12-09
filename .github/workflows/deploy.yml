@@ -3,28 +3,29 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Set the branch you want to deploy from (e.g., main)
+      - main  # Triggers the deployment on push to the 'main' branch
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install  # Only necessary if you are using Node.js or any build system
+        run: npm install
 
-      - name: Build
-        run: npm run build  # Run your build command if needed, e.g., build your portfolio
+      - name: Build the site
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build  # Set the directory where your built site is located (adjust as needed)
+          github_token: ${{ secrets.GH_TOKEN }}  # Make sure to use your secret token
+          publish_dir: ./build  # Directory to publish, change if needed (e.g., './_site' for Jekyll)
