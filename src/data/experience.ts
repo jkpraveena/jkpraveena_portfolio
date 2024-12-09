@@ -62,7 +62,7 @@ export const certificates = [
       'Built workflows to enhance software reliability and troubleshoot effectively',
     ],
     skills: ['Monitoring', 'Observability', 'DevOps', 'Performance Analysis'],
-    imageUrl: 'p_assets/ibm.png',
+    imageUrl: '/p_assets/ibm.png',
   },
   {
     id: 'data-science',
@@ -75,7 +75,7 @@ export const certificates = [
       'Practiced with Python-based tools such as Pandas, Matplotlib, and Scikit-learn',
     ],
     skills: ['Data Science', 'Python', 'Data Visualization'],
-    imageUrl: 'p_assets/CCisco.png',
+    imageUrl: '/p_assets/CCisco.png',
   },
   
 ];
