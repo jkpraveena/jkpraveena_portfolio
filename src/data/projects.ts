@@ -8,7 +8,7 @@ export const projects: Project[] = [
         "description": "A web-based platform enabling real-time collaborative coding with multiple users.",
         "longDescription": "CoCode is an innovative real-time collaborative coding platform designed to enhance productivity for developers working remotely. It integrates live code sharing, chat functionalities, and multi-language support with minimal latency, enabling seamless teamwork. With advanced features like version control integration and live debugging tools, it redefines how teams approach coding projects collaboratively.",
         "tags": ["Collaboration", "WebRTC", "JavaScript", "Node.js"],
-        "imageUrl": "p_assets/cocode.jpg",
+        "imageUrl": "/jkpraveena_portfolio/p_assets/cocode.jpg",
         "githubUrl": "https://github.com/jkpraveena/CoCode.git",
         "demoUrl": "https://drive.google.com/file/d/1_jNFUgf0CKRtnbciiQRUb0Xwvo9nJF1c/view?usp=drive_link",
         "highlights": [
@@ -45,7 +45,7 @@ export const projects: Project[] = [
         description: 'A chatbot leveraging NLP and SQLite for intelligent FAQ management',
         longDescription: 'Developed a robust chatbot capable of understanding and answering user queries with high accuracy. This project integrates SQLite for dynamic FAQ storage, uses advanced NLP techniques for preprocessing, and applies TF-IDF vectorization with cosine similarity for contextual fallback responses.',
         tags: ['AI/ML', 'NLP', 'Python', 'SQLite'],
-        imageUrl: 'p_assets/ai_bot.jpg',
+        imageUrl: '/jkpraveena_portfolio/p_assets/ai_bot.jpg',
         githubUrl: 'https://github.com/jkpraveena/AI_ChatBot.git',
         demoUrl: 'https://drive.google.com/file/d/1XW-exN_M0h4DFVwTMjCN8cF10OjaePin/view?usp=drive_link',
         highlights: [
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     "description": "A machine learning model that classifies news articles as real or fake.",
     "longDescription": "Developed a fake news detection system using Logistic Regression and TF-IDF Vectorization. The model preprocesses text data through stemming and missing value handling and achieves 95% accuracy on the test set. The application is scalable for large datasets and can be deployed for real-time fake news detection on news platforms and social media.",
     "tags": ["AI/ML", "Python", "Logistic Regression", "TF-IDF", "Natural Language Processing"],
-    "imageUrl": "p_assets/fake_news.jpg",
+    "imageUrl": "/jkpraveena_portfolio/p_assets/fake_news.jpg",
     "githubUrl": "https://github.com/jkpraveena/Fake_News_Detection.git",
     "demoUrl": "https://drive.google.com/file/d/1ueHfzyZp8b2BNS20eZzOuQVjSYjJtHal/view?usp=drive_link",
     "highlights": [
@@ -123,7 +123,7 @@ export const projects: Project[] = [
     "description": "A secure document management system that uses face recognition for locking and unlocking PDFs.",
     "longDescription": "Developed a secure system where users can lock and unlock PDF documents using biometric authentication. The system leverages real-time face recognition to unlock encrypted PDFs, ensuring that sensitive documents are accessed only by authorized users.",
     "tags": ["AI/ML", "Face Recognition", "Python", "OpenCV", "PyPDF2"],
-    "imageUrl": "p_assets/pdf.jpg",
+    "imageUrl": "/jkpraveena_portfolio/p_assets/pdf.jpg",
     "githubUrl": "https://github.com/jkpraveena/pdf_unlocking_using_FaceRecognition.git",
     "demoUrl": "https://drive.google.com/file/d/1d-oOXyzh1E8fhfscLJ46LbWdr1-EAV9c/view?usp=drive_link",
     "highlights": [
@@ -160,7 +160,7 @@ export const projects: Project[] = [
     "description": "A hands-free system that captures images on voice commands using speech recognition and computer vision.",
     "longDescription": "Developed an innovative voice-activated image capture system that integrates speech recognition with OpenCV, enabling seamless image capture without user interaction. The system listens for specific voice commands and automatically triggers the camera to take high-quality images, optimized for real-time use cases such as healthcare, security, and accessibility.",
     "tags": ["AI/ML", "Python", "OpenCV", "Speech Recognition"],
-    "imageUrl": "p_assets/voice.jpg",
+    "imageUrl": "/jkpraveena_portfolio/p_assets/voice.jpg",
     "githubUrl": "https://github.com/jkpraveena/capture_img_with_voice.git",
     "demoUrl": "https://drive.google.com/file/d/1TxPfonotMyh3xyH5tkjj27z4BrCpsxcV/view?usp=drive_link",
     "highlights": [
@@ -196,7 +196,7 @@ export const projects: Project[] = [
     "description": "A powerful tool for extracting text from images using EasyOCR and OpenCV.",
     "longDescription": "Developed an advanced OCR-based text extraction tool that leverages EasyOCR for detecting text in images. This tool supports text recognition with high accuracy, processes images, and visualizes the extracted text, making it ideal for use in document digitization and automated form processing.",
     "tags": ["AI/ML", "Python", "Computer Vision"],
-    "imageUrl": "p_assets/text.jpg",
+    "imageUrl": "/jkpraveena_portfolio/p_assets/text.jpg",
     "githubUrl": "https://github.com/jkpraveena/text-from-image.git",
     "demoUrl": "https://drive.google.com/file/d/1o09rr3K7Cvyvj4LNafMb_wMNawwXRyhO/view?usp=drive_link",
     "highlights": [
@@ -233,7 +233,7 @@ export const projects: Project[] = [
   description: 'A web application that interprets dreams and provides motivational insights',
   longDescription: 'Developed an interactive platform that takes user-input dreams and provides tailored insights, interpretations, and growth-oriented messages. The application is designed to inspire and motivate users, with a visually appealing interface and robust backend logic.',
   tags: ['AI/ML', 'Psychology', 'Web Development'],
-  imageUrl: 'p_assets/dream.jpg',
+  imageUrl: '/jkpraveena_portfolio/p_assets/dream.jpg',
   githubUrl: 'https://github.com/jkpraveena/Dream-Oracle.git',
   demoUrl: 'https://drive.google.com/file/d/1ODX96mv4qnw56eDX2h_8hUj8LGPndGCy/view?usp=drive_link',
   highlights: [
@@ -269,7 +269,7 @@ export const projects: Project[] = [
   description: 'A simple yet interactive dashboard visualizing global happiness trends based on country-wise data',
   longDescription: 'Built an engaging dashboard to display happiness metrics for countries using a static sample database. The dashboard showcases trends based on age demographics, happiness scores, and basic analysis of available data. Featuring stunning visualizations, the platform highlights the top 5 happiest countries dynamically.',
   tags: ['Data Visualization', 'Web Development', 'JavaScript'],
-  imageUrl: 'p_assets/happiness.jpg',
+  imageUrl: '/jkpraveena_portfolio/p_assets/happiness.jpg',
   githubUrl: 'https://github.com/jkpraveena/global_happiness_dashboard.git',
   demoUrl: 'https://drive.google.com/file/d/1nmkeNX9nGGAeB93SXS8SnWt-KO60XbhQ/view?usp=drive_link',
   highlights: [
@@ -310,7 +310,7 @@ export const projects: Project[] = [
   description: 'A Python project implementing the Apriori algorithm to identify association rules in transaction data',
   longDescription: 'Developed a Market Basket Analysis tool that identifies frequent itemsets and generates association rules to provide actionable insights into customer purchase behavior. The project uses transactional data to predict items that are often bought together, helping businesses design better promotional strategies.',
   tags: ['Data Analysis', 'Python', 'Machine Learning'],
-  imageUrl: 'p_assets/recommendation.jpg',
+  imageUrl: '/jkpraveena_portfolio/p_assets/recommendation.jpg',
   githubUrl: 'https://github.com/jkpraveena/recommendation_apriori_system.git',
   demoUrl: 'https://drive.google.com/file/d/1Kk4kfOgu-ZJ6PIb2cBwMILDZMra9ldvT/view?usp=drive_link',
   highlights: [
@@ -347,7 +347,7 @@ export const projects: Project[] = [
   description: 'A system to predict cancer diagnosis (benign/malignant) using multiple machine learning models.',
   longDescription: 'Built a cancer prediction system that evaluates multiple machine learning models for accuracy. The project uses Grid Search for hyperparameter tuning and visualizes model performance for better insights.',
   tags: ['Machine Learning', 'Data Science', 'Healthcare'],
-  imageUrl: 'p_assets/cancer.jpg',
+  imageUrl: '/jkpraveena_portfolio/p_assets/cancer.jpg',
   githubUrl: 'https://github.com/jkpraveena/cancer_prediction.git',
   demoUrl: 'https://drive.google.com/file/d/1svkgZlM9oR2kS6Wt2KnHVx_yv0sUeZgA/view?usp=drive_link',
   highlights: [
